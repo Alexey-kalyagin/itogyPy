@@ -59,4 +59,4 @@ for i in range(len(x_change)-1):
     plt.plot(x_range, func(x_range, *koef), change_color())
 x_range = np.arange(x_change[len(x_change)-1][0], x_lim[1], 0.1)
 plt.plot(x_range, func(x_range, *koef), change_color())
-plt.show
+plt.show()
